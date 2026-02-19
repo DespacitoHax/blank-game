@@ -1,0 +1,14 @@
+chat_text = "";
+chat_timer = 0;
+image_blend = c_white; // Standard color
+hsp = 0;
+vsp = 0;
+move_speed = 4;
+accel = 0.6;
+friction = 0.5;
+gravity = 0;
+max_fall = 8;
+jump_power = -8;
+jump_hold_force = -0.3;
+jump_hold_time = 10;
+jump_timer = 0;

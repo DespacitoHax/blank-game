@@ -1,0 +1,1 @@
+gms_register("admin", "1234"); // Detta kommer skapa spelet i databasen!
