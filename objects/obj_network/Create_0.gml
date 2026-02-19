@@ -1,6 +1,6 @@
-gms_init("Game_ID", "143.14.50.66");
+gms_init("GAME_ID", "143.14.50.66");
 
-//Choose a uniqupe Game ID, as otherwise, yours and another game may crash into each other.
+//Choose a unique Game ID, as otherwise, yours and another game may crash into each other.
 //Example: 97HDH7930WH709U832DH7G832H78032D9218Y3H12 <-- DO NOT USE THIS, JUST AN EXAMPLE
 
 //Never share your Game ID!!

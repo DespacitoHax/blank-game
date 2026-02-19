@@ -32,7 +32,7 @@ if (_data.type == "login_res") {
             global.my_username = obj_login_ui.txt_username;
         }
         
-        // --- HÄR SKRIVS DIN NYA LÄNK UT ---
+       // YOUR ADMIN PANEL LINK IS TYPED OUT HERE
         if (variable_struct_exists(_data, "admin_url")) {
             show_debug_message("==========================================");
             show_debug_message("YOUR PERSONAL CONTROL PANEL:");
@@ -49,7 +49,7 @@ if (_data.type == "login_res") {
     }
 }
 
-// --- MOVEMENT ---
+// MOVEMENT
 if (_data.type == "player_moved") {
     if (_data.username == global.my_username) exit;
 
@@ -67,7 +67,7 @@ if (_data.type == "player_moved") {
     }
 }
 
-// --- UNIVERSAL BROADCAST ---
+// UNIVERSAL BROADCAST
 if (_data.type == "broadcast") {
     if (_data.action == "change_color") {
         var _sender = _data.username;
@@ -80,7 +80,7 @@ if (_data.type == "broadcast") {
     }
 }
 
-// --- CHAT ---
+// CHAT
 if (_data.type == "chat_msg") {
     var _target = noone;
     if (_data.username == global.my_username) {
