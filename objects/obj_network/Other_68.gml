@@ -79,7 +79,6 @@ if (_data.type == "broadcast") {
         }
     }
 }
-
 // CHAT
 if (_data.type == "chat_msg") {
     var _target = noone;
