@@ -8,7 +8,7 @@ function gms_init(_game_id, _ip, _game_key) {
     global.gms_socket = network_create_socket(network_socket_ws);
     
     // 2. FÖRSÖK ANSLUTA
-    var _res = network_connect_raw(global.gms_socket, _ip, 8080);
+    var _res = network_connect_raw(global.gms_socket, _ip, 80);
     
     global.gms_other_players = ds_map_create();
     
